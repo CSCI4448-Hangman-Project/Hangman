@@ -1,4 +1,6 @@
-package hangman;
+package hangman.observer;
+
+import hangman.HangmanGame;
 
 public class ConsoleObserver implements GameObserver {
 

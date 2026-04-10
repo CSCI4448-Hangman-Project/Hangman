@@ -5,6 +5,8 @@ import java.util.Set;
 import java.util.List;
 import java.util.ArrayList;
 
+import hangman.observer.GameObserver;
+
 
 // import hangman.factory.WordLibrary;
 // import hangman.strategy.DifficultyStrategy;

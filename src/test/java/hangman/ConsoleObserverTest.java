@@ -1,12 +1,14 @@
 package hangman;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import hangman.observer.ConsoleObserver;
 
 public class ConsoleObserverTest {
 

@@ -2,6 +2,8 @@ package hangman;
 
 import java.util.Set;
 
+import hangman.observer.GameObserver;
+
 
 public interface HangmanGame {
     boolean guessLetter(char letter);
