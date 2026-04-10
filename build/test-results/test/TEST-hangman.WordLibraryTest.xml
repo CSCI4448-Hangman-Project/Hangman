@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hangman.WordLibraryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-10T18:56:38.050Z" hostname="Lilis-Macbook-Pro.local" time="0.011">
+  <properties/>
+  <testcase name="testWordLibraryLoadsWords()" classname="hangman.WordLibraryTest" time="0.002"/>
+  <testcase name="testTargetWord()" classname="hangman.WordLibraryTest" time="0.002"/>
+  <testcase name="testWordLibrary()" classname="hangman.WordLibraryTest" time="0.002"/>
+  <testcase name="testRandomTargetWordComesFromLibrary()" classname="hangman.WordLibraryTest" time="0.001"/>
+  <testcase name="testMissingFileThrowsIOException()" classname="hangman.WordLibraryTest" time="0.002"/>
+  <system-out><![CDATA[4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

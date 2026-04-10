@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hangman.ObserverTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-04-10T18:56:38.017Z" hostname="Lilis-Macbook-Pro.local" time="0.031">
+  <properties/>
+  <testcase name="testObserverNotifiedMultipleTimes()" classname="hangman.ObserverTest" time="0.004"/>
+  <testcase name="testAddNullObserverDoesNotThrow()" classname="hangman.ObserverTest" time="0.006"/>
+  <testcase name="testObserverReceivesCorrectGame()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testNoObserversDoesNotThrow()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testObserverNotifiedOnGuessLetter()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testObserverNotNotifiedAfterRemoval()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testMultipleObserversNotified()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testObserverNotifiedOnReset()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testObserverNotNotifiedOnDuplicateGuess()" classname="hangman.ObserverTest" time="0.002"/>
+  <testcase name="testObserverNotifiedOnGuessWord()" classname="hangman.ObserverTest" time="0.001"/>
+  <system-out><![CDATA[4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+4715 target words loaded
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

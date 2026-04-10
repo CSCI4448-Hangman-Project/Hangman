@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hangman.GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-10T18:56:38.012Z" hostname="Lilis-Macbook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="testGame()" classname="hangman.GameTest" time="0.003"/>
+  <system-out><![CDATA[4715 target words loaded
+hiking
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

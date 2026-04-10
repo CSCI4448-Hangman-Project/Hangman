@@ -1,0 +1,12 @@
+2026.04.10 12:58:26 INFO  Started: Metals version 1.6.7 in folders '/Users/lilisobernheim/Hangman_Project' for client Visual Studio Code 1.115.0.
+2026.04.10 12:58:26 INFO  Memory monitor started
+2026.04.10 12:58:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.10 12:58:40 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+2026.04.10 13:04:07 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+2026.04.10 13:04:10 WARN  no build target for: /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java
+2026.04.10 13:04:10 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+2026.04.10 13:04:49 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+2026.04.10 13:04:51 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+2026.04.10 13:05:51 INFO  no build target found for /Users/lilisobernheim/Hangman_Project/src/main/java/hangman/DefaultGame.java. Using fallback presentation compiler.
+Apr 10, 2026 1:05:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
