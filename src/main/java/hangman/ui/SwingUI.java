@@ -57,7 +57,7 @@ public class SwingUI extends JFrame implements GameObserver {
 
         WordLibrary wordLibrary = WordLibrary.getDefaultWordLibrary()
                 .orElseThrow(() -> new IllegalStateException("Could not load default word library."));
-        this.gameFactory = new DefaultHangmanGameFactory(wordLibrary, DEFAULT_MAX_WRONG_GUESSES);
+        this.gameFactory = DefaultHangmanGameFactory.getInstance(wordLibrary, DEFAULT_MAX_WRONG_GUESSES);
 
         buildUi();
         setStrategy(new HumanGuessStrategy());
