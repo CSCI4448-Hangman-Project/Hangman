@@ -17,6 +17,11 @@ public class DefaultGame implements HangmanGame{
     
     private String targetWord;
     private final Set<Character> guessedLetters = new LinkedHashSet<>();
+    //strategy pattern for... human & computer. human, random, smart computer etc
+    //factory for strategies
+    //maybe singleton for stats or command
+    //ui swing console and printlns
+    //for ui, just put a viewer. no console
     private int wrongGuessCount;
     private final int maxWrongGuesses;
 
