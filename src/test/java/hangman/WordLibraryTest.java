@@ -1,15 +1,19 @@
 package hangman;
 
 
-import java.beans.Transient;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertSame;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
 
 import hangman.factory.DefaultHangmanGameFactory;
 
@@ -66,5 +70,29 @@ class WordLibraryTest {
         DefaultHangmanGameFactory factory2 = DefaultHangmanGameFactory.getInstance(library, 5);
         
         assertSame(factory1, factory2);
+    }
+
+    @TempDir
+    Path tempDir;
+
+    @Test
+    void readWordsSplitsWhitespaceFromFilesystemFile() throws IOException {
+        Path file = tempDir.resolve("words.txt");
+        Files.writeString(file, "alpha beta\n\ngamma\t delta");
+
+        List<String> words = WordLibrary.readWords(file.toString());
+
+        assertEquals(List.of("alpha", "beta", "gamma", "delta"), words);
+    }
+
+    @Test
+    void constructorLoadsFilesystemWordsAndToStringIncludesSize() throws IOException {
+        Path file = tempDir.resolve("words.txt");
+        Files.writeString(file, "one two\nthree");
+
+        WordLibrary library = new WordLibrary(file.toString());
+
+        assertEquals(3, library.sizeOfTargetWords());
+        assertTrue(library.toString().contains("availableTargetWords=3"));
     }
 }
