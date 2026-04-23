@@ -1,3 +1,2 @@
 # Hangman-Project
-
-hello
+        Team Members: Aaron Nong, Jackson Vondemkamp, Lilian Sobernheim, Samantha Larsen
