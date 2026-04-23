@@ -5,12 +5,15 @@ Our project is an implementation of the classic game Hangman. The game is played
 
 # Patterns Implemented
 
-* Factory\
+* Factory
 
       We used the factory pattern to hold the logic for game implementation. 
 * Singleton
+
        We used the singleton pattern to ensure that there would only be one game factory created. 
 * Strategy
+
        We used the strategy pattern to implement different gameplay strategies for the computer mode. 
 * Observer
-       We used the observer pattern to 
+
+       We used the observer pattern to keep track of each game's progress. 
